@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <h1 className="text-4xl font-bold text-white drop-shadow-md tracking-wide">
+        <h1 className="text-5xl font-extrabold text-white tracking-wider drop-shadow-2xl">
             Notes
         </h1>
     );

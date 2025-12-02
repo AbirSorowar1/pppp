@@ -47,7 +47,7 @@ const Notes = () => {
     };
 
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-6 items-center">
             <CreateNote
                 inputText={inputText}
                 setInputText={setInputText}
@@ -55,7 +55,7 @@ const Notes = () => {
                 editId={editId}
             />
 
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-wrap gap-4 justify-center">
                 {notes.map((note) => (
                     <Note
                         key={note.id}
